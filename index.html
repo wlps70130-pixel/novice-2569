@@ -894,8 +894,7 @@
         window.backToEdit = () => showPage('register');
 
         // URL ชี้ไปที่ Cloudflare Pages Function (ไม่มี CORS)
-        const APPS_SCRIPT_URL = '/api/submit';
-
+    const APPS_SCRIPT_URL = 'https://novice-submit.wlps70130.workers.dev';
         window.confirmSubmit = async () => {
             const btn = document.getElementById('btnFinalSubmit');
             btn.disabled = true;
